@@ -42,7 +42,7 @@ while(king1==True and king2==True):
             player1=rider()
             wrong=False
          else:
-            wrong=input("!!!WRONG INPUT!!! Type Again: ")
+            print("\n!!!WRONG INPUT!!! Type Again: ")
             wrong=True
          
     print("\nYou rolled ",player1[0])
